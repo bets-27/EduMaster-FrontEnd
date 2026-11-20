@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #06152B;
+  --color-panel: #0A1F3D;
+  --color-panel2: #0D2B52;
+  --color-brand: #087FE5;
+  --color-neon: #20C8F5;
+  --color-accent: #8B4DFF;
+  --color-ok: #00BFA6;
+  --font-sans: "Inter", system-ui, sans-serif;
+}
+
+body { @apply bg-navy text-slate-100 font-sans; margin: 0; }
