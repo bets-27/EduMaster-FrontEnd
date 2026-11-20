@@ -8,7 +8,16 @@
   --color-neon: #20C8F5;
   --color-accent: #8B4DFF;
   --color-ok: #00BFA6;
+  --color-warn: #F5A524;
+  --color-danger: #FF5C6C;
+  --color-title: #E6EEF8;
+  --color-muted: #8FA6C4;
   --font-sans: "Inter", system-ui, sans-serif;
 }
 
-body { @apply bg-navy text-slate-100 font-sans; margin: 0; }
+body {
+  margin: 0;
+  background: var(--color-navy);
+  color: var(--color-title);
+  font-family: var(--font-sans);
+}

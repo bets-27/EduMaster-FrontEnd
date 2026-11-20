@@ -6,6 +6,8 @@ import { Providers } from './app/providers'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <Providers><App /></Providers>
+    <Providers>
+      <App />
+    </Providers>
   </StrictMode>,
 )
